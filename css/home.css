@@ -335,3 +335,55 @@ nav {
     background-color: white;
     color: #333;
 }
+.explore-title {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    font-size: 16px;
+}
+.explore {
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    margin: 20px 40px;
+}
+  
+  .ex-info {
+    flex: 1 1 calc(16.666% - 16px);
+    max-width: calc(16.666% - 16px);
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .ex-info img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .ex-info p {
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+
+  }
+  .ex-button >button{
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #d80388;
+    border: 2px solid #d80388;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 20px;
+    transition: all.5s;
+  }
+  .ex-button > button:hover {
+    background-color: #fff;
+    color: #d80388;
+    cursor: pointer;
+}
