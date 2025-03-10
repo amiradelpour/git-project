@@ -17,12 +17,15 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
-
+}
+.menu-li{
+    padding: 10px;
 }
 .menu-li:hover{
     background-color: white;
-    color: white;
+    color: black;
+    cursor: pointer;
+    border-radius: 10px;
 }
 .nav-1>ul,
 .nav-2>ul {
