@@ -77,10 +77,12 @@ nav {
     font-size: 22px;
     transition: all .5s;
 }
-.card h2:hover{
+
+.card h2:hover {
     text-decoration: underline;
     cursor: pointer;
 }
+
 .inside-title {
     width: 100%;
     height: fit-content;
@@ -135,7 +137,53 @@ nav {
     bottom: -7px;
     line-height: 100px;
 }
-.cards h2:hover{
+
+.cards h2:hover {
     text-decoration: underline;
     cursor: pointer;
+}
+
+.fan-part {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.f-1 {
+    margin-left: 80px;
+    font-size: 30px;
+}
+
+.f-1 h3 {
+    font-size: 40px;
+}
+
+.f-1 button {
+    width: 50%;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #d80388;
+    border: 2px solid #d80388;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 20px;
+    transition: all.5s;
+}
+
+.f-1 button:hover {
+    background-color: #fff;
+    color: #d80388;
+    cursor: pointer;
+}
+
+.f-2 {
+    text-align: right;
+}
+
+.f-2 img {
+    width: 80%;
+    height: 80%;
+    margin-right: 55px;
 }
