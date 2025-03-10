@@ -98,6 +98,7 @@ nav {
  }
  .hero-text-2 > span{
     text-decoration: underline;
+    cursor: pointer;
  }
  .hero-p{
     position: absolute;
@@ -110,4 +111,6 @@ nav {
 .hero-section > img{
   width: 100%;
     height: 95vh;
+}
+.app-section{
 }
