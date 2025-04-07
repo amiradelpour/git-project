@@ -542,7 +542,6 @@ nav {
   .cards h2 {
     font-size: 18px;
   }
-<<<<<<< HEAD
 }
 
 @media (max-width: 400px) {
@@ -628,7 +627,6 @@ nav {
   .cards h2 {
     font-size: 16px;
   }
-=======
   
   .ex-info p {
     margin: 10px 0;
@@ -651,5 +649,5 @@ nav {
     background-color: #fff;
     color: #d80388;
     cursor: pointer;
->>>>>>> parent of 0edb220 (add responsive)
+}
 }
