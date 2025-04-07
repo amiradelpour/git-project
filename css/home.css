@@ -518,6 +518,7 @@ nav {
   
   .content p {
     font-size: 14px;
+    display: none;
   }
   
   .shadow-item h3 {
